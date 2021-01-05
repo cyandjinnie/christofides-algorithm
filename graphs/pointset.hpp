@@ -7,11 +7,14 @@
 #include <graphs/FullyConnectedMetricGraph.hpp>
 
 #include <vector>
+#include <iostream>
 
 struct Point2D {
   double x;
   double y;
 };
+
+std::istream& operator>>(std::istream& is, Point2D& point);
 
 class PointSet : public FullyConnectedMetricGraph {
  public:

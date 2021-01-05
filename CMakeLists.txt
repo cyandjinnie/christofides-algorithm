@@ -10,24 +10,34 @@ include_directories(mst)
 set(MATCH_FRAMEWORK_SRC Minimum-Cost-Perfect-Matching/BinaryHeap.cpp
                         Minimum-Cost-Perfect-Matching/BinaryHeap.h
                         Minimum-Cost-Perfect-Matching/Globals.h
-                        Minimum-Cost-Perfect-Matching/city-map.cpp
-                        Minimum-Cost-Perfect-Matching/city-map.h
+                        Minimum-Cost-Perfect-Matching/Graph.cpp
+                        Minimum-Cost-Perfect-Matching/Graph.h
                         Minimum-Cost-Perfect-Matching/Matching.cpp
-                        Minimum-Cost-Perfect-Matching/Matching.h)
+                        Minimum-Cost-Perfect-Matching/Matching.h tsp/tourweight.hpp tsp/tourweight.cpp)
 
 add_executable(christofides_algorithm
         ${MATCH_FRAMEWORK_SRC}
         mst/prim.cpp
         mst/prim.hpp
-        graphs/FullyConnectedMetricGraph.hpp
+
+        min-matching/matching.hpp
+        min-matching/matching.cpp
+
         interface/IGraph.hpp
         interface/IMutableGraph.hpp
-        graphs/pointset.cpp
-        graphs/pointset.hpp
-        graphs/cityroadmap.hpp
+
         main.cpp
+        #Minimum-Cost-Perfect-Matching/Example.cpp
+
         graphs/graph.cpp
         graphs/graph.hpp
         graphs/FullyConnectedMetricGraph.cpp
+        graphs/pointset.cpp
+        graphs/pointset.hpp
+        graphs/cityroadmap.hpp
+        graphs/FullyConnectedMetricGraph.hpp
+
         tsp/christofides.hpp
-        tsp/christofides.cpp tsp/solve.hpp tsp/solve.cpp)
+        tsp/christofides.cpp
+        tsp/solve.hpp
+        tsp/solve.cpp)

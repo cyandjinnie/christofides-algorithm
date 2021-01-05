@@ -15,10 +15,13 @@ class FullyConnectedMetricGraph : public IGraph {
   FullyConnectedMetricGraph(size_t num_vertices, WeightsMatrix weights)
     : weights_(std::move(weights)) {}
   
-  double GetWeight(size_t, size_t) const override;
+  double GetWeight(Vertex, Vertex) const override;
   size_t VerticesCount() const override;
   void GetNextVertices(Vertex, std::vector<Vertex>&) const override;
- 
+  
+  std::pair<EdgeList, WeightList> EdgesWeights() const override;
+  void PrintAdjMatrix() const;
+  
   /* Methods */
  protected:
   bool VertexExists(Vertex u) const;

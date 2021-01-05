@@ -6,6 +6,12 @@
 
 #include <cmath>
 
+std::istream& operator>>(std::istream& is, Point2D& point) {
+  is >> point.x >> point.y;
+  // std::cout << "( " << point.x << ", " << point.y << " )\n";
+  return is;
+}
+
 double PointSet::Distance(const Point2D& u, const Point2D& v) {
   double dx = u.x - v.x;
   double dy = u.y - v.y;

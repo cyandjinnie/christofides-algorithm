@@ -9,4 +9,5 @@
 class IMutableGraph : public IGraph {
  public:
   virtual void AddEgde(Vertex, Vertex, double) = 0;
+  virtual void SetVerticesCount(size_t) = 0;
 };

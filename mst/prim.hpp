@@ -12,7 +12,9 @@
 
 namespace MST {
 
-using SpanningTree = Graph;
+using SpanningTree = christofides::Graph;
+using christofides::Graph;
+using christofides::Edge;
 
 SpanningTree Prim(IGraph *graph);
 
