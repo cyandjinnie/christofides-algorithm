@@ -11,8 +11,8 @@ def usage():
 
 
 def gen_random_tests(num_tests):
-    seed = 43
-    random.seed(43)
+    seed = 42
+    random.seed(42)
 
     for i in range(3, num_tests + 3):
         file_name = "test" + str(i) + ".txt"

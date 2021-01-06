@@ -83,12 +83,19 @@ christofides::Graph Combine(PairMatching& m, IGraph* mst) {
 using EulerCycle = std::vector<Vertex>;
 
 EulerCycle FindEulerCycle(IGraph* graph) {
-  EulerCycle output;
+  EulerCycle output; // THIS IS MULTIGRAPH GOD DAMN IT
   
   // Fill with 'false'
-  std::vector<std::vector<bool>> used(
+  std::vector<std::vector<int>> times_left(
     graph->VerticesCount(),
-    std::vector<bool>(graph->VerticesCount(), false));
+    std::vector<int>(graph->VerticesCount(), 0));
+  
+  auto [E, _] = graph->EdgesWeights();
+  for (auto [u, v] : E) {
+    times_left[u][v]++;
+  }
+  
+  // std::cout << E.size() << std::endl;
   
   std::stack<Vertex> stack;
   stack.push(0);
@@ -101,12 +108,30 @@ EulerCycle FindEulerCycle(IGraph* graph) {
     std::vector<Vertex> next_vertices;
     graph->GetNextVertices(w, next_vertices);
     
-    for (auto u : next_vertices) {
-      if (!used[w][u]) {
-        stack.push(u);
-        used[w][u] = true;
+    std::set<Vertex> unique_vertices(next_vertices.begin(), next_vertices.end());
+    next_vertices = std::vector<Vertex>(unique_vertices.begin(), unique_vertices.end());
+    
+    for (auto next : next_vertices) {
+      int u = 0;
+      int v = 0;
+      
+      if (next > w) {
+        u = w;
+        v = next;
+      } else if (next < w) {
+        u = next;
+        v = w;
+      } else {
+        std::cerr << "WTF" << std::endl;
+        exit(1);
+      }
+      
+      if (times_left[u][v] > 0) {
+        stack.push(next);
+        --times_left[u][v];
         
         found_edge = true;
+        break;
       }
     }
     
@@ -136,15 +161,15 @@ HamiltonCycle SkipDuplicateVertices(const EulerCycle& euler) {
 HamiltonCycle TSP::ChristofidesApproxSolve(FullyConnectedMetricGraph *graph) {
   MST::SpanningTree mst = MST::Prim(graph);
   
-  auto [E, W] = mst.EdgesWeights();
-  
   auto odd_nodes = OddNodes(&mst);
   auto induced_odd_graph = InducedSubgraph(graph, odd_nodes);
   PairMatching matching = FindMinPerfPairMatching(&induced_odd_graph);
   
-  auto [mst_edges, mst_weights] = mst.EdgesWeights();
-  
   auto multigraph = Combine(matching, &mst);
+  
+  // auto [E, _] = multigraph.EdgesWeights();
+  // std::cout << "#edges in multigraph: " << E.size() << std::endl;
+  
   auto euler_cycle = FindEulerCycle(&multigraph);
   
   return SkipDuplicateVertices(euler_cycle);

@@ -9,6 +9,38 @@
 
 namespace MST {
 
+double MinSpanningTreeWeight(IGraph* graph) {
+  const double INF = std::numeric_limits<double>::max();
+  double weight_sum = 0;
+  // (weight, from, to)
+  std::set<std::pair<double, Vertex>> edges;
+  std::vector<double> min_edge(graph->VerticesCount(), INF);
+  std::vector<bool> is_added(graph->VerticesCount(), false);
+  min_edge[0] = 0;
+  is_added[0] = true;
+  edges.emplace(0, 0);
+  for (int edges_added = 0; edges_added < graph->VerticesCount(); ++edges_added) {
+    auto [key, current] = *edges.begin();
+    edges.erase(edges.begin());
+    weight_sum += key;
+    is_added[current] = true;
+  
+    std::vector<Vertex> next_vertices;
+    graph->GetNextVertices(current, next_vertices);
+    
+    for (auto next : next_vertices) {
+      double weight = graph->GetWeight(current, next);
+      
+      if (weight < min_edge[next] && !is_added[next]) {
+        edges.erase(std::make_pair(min_edge[next], next));
+        min_edge[next] = weight;
+        edges.emplace(min_edge[next], next);
+      }
+    }
+  }
+  return weight_sum;
+}
+
 SpanningTree Prim(IGraph *graph) {
   const double INF = std::numeric_limits<double>::max();
   
@@ -50,6 +82,13 @@ SpanningTree Prim(IGraph *graph) {
         prev_vertex[next] = current;
       }
     }
+  }
+  
+  // std::cout << "Got MST cost: " << weight_sum << '\n';
+  // std::cout << "Expected: " << MinSpanningTreeWeight(graph) << std::endl;
+  
+  for (auto [w, u, v] : mst_edge_list) {
+    assert(graph->GetWeight(u, v) == w);
   }
   
   int num_vertices = graph->VerticesCount();

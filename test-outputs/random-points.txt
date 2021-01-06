@@ -1,0 +1,501 @@
+---------------[ Test 'random-points-1' ]---------------
+[ #vertices = 10 ]
+Christofides tour cost: 59.7229		-- elapsed 659 ms
+Optimal tour cost: 59.0713				-- elapsed 3067100 ms
+Cost ratio: 1.01103
+---------------[ Test 'random-points-2' ]---------------
+[ #vertices = 10 ]
+Christofides tour cost: 61.8466		-- elapsed 394 ms
+Optimal tour cost: 61.8466				-- elapsed 3041006 ms
+Cost ratio: 1
+---------------[ Test 'random-points-3' ]---------------
+[ #vertices = 8 ]
+Christofides tour cost: 69.4195		-- elapsed 521 ms
+Optimal tour cost: 61.8652				-- elapsed 29914 ms
+Cost ratio: 1.12211
+---------------[ Test 'random-points-4' ]---------------
+[ #vertices = 8 ]
+Christofides tour cost: 59.4689		-- elapsed 326 ms
+Optimal tour cost: 59.4689				-- elapsed 30060 ms
+Cost ratio: 1
+---------------[ Test 'random-points-5' ]---------------
+[ #vertices = 10 ]
+Christofides tour cost: 52.3346		-- elapsed 541 ms
+Optimal tour cost: 52.3346				-- elapsed 3052398 ms
+Cost ratio: 1
+---------------[ Test 'random-points-6' ]---------------
+[ #vertices = 10 ]
+Christofides tour cost: 53.416		-- elapsed 387 ms
+Optimal tour cost: 51.275				-- elapsed 3044202 ms
+Cost ratio: 1.04176
+---------------[ Test 'random-points-7' ]---------------
+[ #vertices = 9 ]
+Christofides tour cost: 63.1104		-- elapsed 508 ms
+Optimal tour cost: 59.1527				-- elapsed 290406 ms
+Cost ratio: 1.06691
+---------------[ Test 'random-points-8' ]---------------
+[ #vertices = 8 ]
+Christofides tour cost: 61.1213		-- elapsed 261 ms
+Optimal tour cost: 57.3758				-- elapsed 30191 ms
+Cost ratio: 1.06528
+---------------[ Test 'random-points-9' ]---------------
+[ #vertices = 9 ]
+Christofides tour cost: 50.9137		-- elapsed 378 ms
+Optimal tour cost: 50.9137				-- elapsed 294601 ms
+Cost ratio: 1
+---------------[ Test 'random-points-10' ]---------------
+[ #vertices = 10 ]
+Christofides tour cost: 66.35		-- elapsed 384 ms
+Optimal tour cost: 66.0466				-- elapsed 2997328 ms
+Cost ratio: 1.0046
+---------------[ Test 'random-points-11' ]---------------
+[ #vertices = 10 ]
+Christofides tour cost: 75.6544		-- elapsed 405 ms
+Optimal tour cost: 66.1296				-- elapsed 3025790 ms
+Cost ratio: 1.14403
+---------------[ Test 'random-points-12' ]---------------
+[ #vertices = 8 ]
+Christofides tour cost: 53.0421		-- elapsed 451 ms
+Optimal tour cost: 48.0113				-- elapsed 29666 ms
+Cost ratio: 1.10478
+---------------[ Test 'random-points-13' ]---------------
+[ #vertices = 8 ]
+Christofides tour cost: 58.9415		-- elapsed 358 ms
+Optimal tour cost: 55.1482				-- elapsed 29488 ms
+Cost ratio: 1.06878
+---------------[ Test 'random-points-14' ]---------------
+[ #vertices = 8 ]
+Christofides tour cost: 51.032		-- elapsed 303 ms
+Optimal tour cost: 51.032				-- elapsed 29869 ms
+Cost ratio: 1
+---------------[ Test 'random-points-15' ]---------------
+[ #vertices = 9 ]
+Christofides tour cost: 65.2779		-- elapsed 708 ms
+Optimal tour cost: 56.8799				-- elapsed 289046 ms
+Cost ratio: 1.14764
+---------------[ Test 'random-points-16' ]---------------
+[ #vertices = 9 ]
+Christofides tour cost: 60.3187		-- elapsed 483 ms
+Optimal tour cost: 55.0157				-- elapsed 286667 ms
+Cost ratio: 1.09639
+---------------[ Test 'random-points-17' ]---------------
+[ #vertices = 9 ]
+Christofides tour cost: 57.6187		-- elapsed 756 ms
+Optimal tour cost: 57.0139				-- elapsed 290746 ms
+Cost ratio: 1.01061
+---------------[ Test 'random-points-18' ]---------------
+[ #vertices = 9 ]
+Christofides tour cost: 65.6208		-- elapsed 370 ms
+Optimal tour cost: 60.748				-- elapsed 286170 ms
+Cost ratio: 1.08021
+---------------[ Test 'random-points-19' ]---------------
+[ #vertices = 9 ]
+Christofides tour cost: 50.5409		-- elapsed 658 ms
+Optimal tour cost: 46.0365				-- elapsed 287941 ms
+Cost ratio: 1.09784
+---------------[ Test 'random-points-20' ]---------------
+[ #vertices = 10 ]
+Christofides tour cost: 67.7068		-- elapsed 636 ms
+Optimal tour cost: 64.1095				-- elapsed 3013957 ms
+Cost ratio: 1.05611
+---------------[ Test 'random-points-21' ]---------------
+[ #vertices = 10 ]
+Christofides tour cost: 63.4762		-- elapsed 631 ms
+Optimal tour cost: 56.0834				-- elapsed 3011899 ms
+Cost ratio: 1.13182
+---------------[ Test 'random-points-22' ]---------------
+[ #vertices = 8 ]
+Christofides tour cost: 70.6347		-- elapsed 510 ms
+Optimal tour cost: 63.1551				-- elapsed 29500 ms
+Cost ratio: 1.11843
+---------------[ Test 'random-points-23' ]---------------
+[ #vertices = 8 ]
+Christofides tour cost: 65.4134		-- elapsed 472 ms
+Optimal tour cost: 61.9537				-- elapsed 29914 ms
+Cost ratio: 1.05584
+---------------[ Test 'random-points-24' ]---------------
+[ #vertices = 8 ]
+Christofides tour cost: 45.8978		-- elapsed 367 ms
+Optimal tour cost: 44.5126				-- elapsed 29939 ms
+Cost ratio: 1.03112
+---------------[ Test 'random-points-25' ]---------------
+[ #vertices = 10 ]
+Christofides tour cost: 58.1615		-- elapsed 402 ms
+Optimal tour cost: 57.9623				-- elapsed 3001943 ms
+Cost ratio: 1.00344
+---------------[ Test 'random-points-26' ]---------------
+[ #vertices = 9 ]
+Christofides tour cost: 56.6118		-- elapsed 524 ms
+Optimal tour cost: 56.6118				-- elapsed 287066 ms
+Cost ratio: 1
+---------------[ Test 'random-points-27' ]---------------
+[ #vertices = 9 ]
+Christofides tour cost: 42.2252		-- elapsed 541 ms
+Optimal tour cost: 42.2252				-- elapsed 286979 ms
+Cost ratio: 1
+---------------[ Test 'random-points-28' ]---------------
+[ #vertices = 9 ]
+Christofides tour cost: 71.3105		-- elapsed 365 ms
+Optimal tour cost: 62.3521				-- elapsed 287863 ms
+Cost ratio: 1.14368
+---------------[ Test 'random-points-29' ]---------------
+[ #vertices = 10 ]
+Christofides tour cost: 63.9961		-- elapsed 531 ms
+Optimal tour cost: 63.9961				-- elapsed 3017055 ms
+Cost ratio: 1
+---------------[ Test 'random-points-30' ]---------------
+[ #vertices = 9 ]
+Christofides tour cost: 51.2037		-- elapsed 379 ms
+Optimal tour cost: 50.8108				-- elapsed 288239 ms
+Cost ratio: 1.00773
+---------------[ Test 'random-points-31' ]---------------
+[ #vertices = 9 ]
+Christofides tour cost: 51.7234		-- elapsed 526 ms
+Optimal tour cost: 51.7198				-- elapsed 287308 ms
+Cost ratio: 1.00007
+---------------[ Test 'random-points-32' ]---------------
+[ #vertices = 10 ]
+Christofides tour cost: 47.7383		-- elapsed 939 ms
+Optimal tour cost: 46.9691				-- elapsed 3011179 ms
+Cost ratio: 1.01638
+---------------[ Test 'random-points-33' ]---------------
+[ #vertices = 8 ]
+Christofides tour cost: 60.4958		-- elapsed 356 ms
+Optimal tour cost: 57.677				-- elapsed 29452 ms
+Cost ratio: 1.04887
+---------------[ Test 'random-points-34' ]---------------
+[ #vertices = 10 ]
+Christofides tour cost: 47.5397		-- elapsed 360 ms
+Optimal tour cost: 47.5397				-- elapsed 3003697 ms
+Cost ratio: 1
+---------------[ Test 'random-points-35' ]---------------
+[ #vertices = 8 ]
+Christofides tour cost: 34.7188		-- elapsed 261 ms
+Optimal tour cost: 34.7188				-- elapsed 29543 ms
+Cost ratio: 1
+---------------[ Test 'random-points-36' ]---------------
+[ #vertices = 9 ]
+Christofides tour cost: 50.0132		-- elapsed 327 ms
+Optimal tour cost: 48.535				-- elapsed 288098 ms
+Cost ratio: 1.03046
+---------------[ Test 'random-points-37' ]---------------
+[ #vertices = 9 ]
+Christofides tour cost: 61.2989		-- elapsed 518 ms
+Optimal tour cost: 56.7602				-- elapsed 287305 ms
+Cost ratio: 1.07996
+---------------[ Test 'random-points-38' ]---------------
+[ #vertices = 9 ]
+Christofides tour cost: 60.2569		-- elapsed 580 ms
+Optimal tour cost: 55.0186				-- elapsed 287187 ms
+Cost ratio: 1.09521
+---------------[ Test 'random-points-39' ]---------------
+[ #vertices = 10 ]
+Christofides tour cost: 58.1499		-- elapsed 544 ms
+Optimal tour cost: 57.0043				-- elapsed 3016715 ms
+Cost ratio: 1.0201
+---------------[ Test 'random-points-40' ]---------------
+[ #vertices = 8 ]
+Christofides tour cost: 44.1242		-- elapsed 340 ms
+Optimal tour cost: 42.3018				-- elapsed 30072 ms
+Cost ratio: 1.04308
+---------------[ Test 'random-points-41' ]---------------
+[ #vertices = 9 ]
+Christofides tour cost: 54.1192		-- elapsed 356 ms
+Optimal tour cost: 48.1028				-- elapsed 288610 ms
+Cost ratio: 1.12507
+---------------[ Test 'random-points-42' ]---------------
+[ #vertices = 8 ]
+Christofides tour cost: 48.5712		-- elapsed 488 ms
+Optimal tour cost: 46.0246				-- elapsed 30309 ms
+Cost ratio: 1.05533
+---------------[ Test 'random-points-43' ]---------------
+[ #vertices = 9 ]
+Christofides tour cost: 64.4377		-- elapsed 362 ms
+Optimal tour cost: 58.3561				-- elapsed 287373 ms
+Cost ratio: 1.10422
+---------------[ Test 'random-points-44' ]---------------
+[ #vertices = 10 ]
+Christofides tour cost: 57.6901		-- elapsed 560 ms
+Optimal tour cost: 54.3374				-- elapsed 3003474 ms
+Cost ratio: 1.0617
+---------------[ Test 'random-points-45' ]---------------
+[ #vertices = 10 ]
+Christofides tour cost: 61.9076		-- elapsed 372 ms
+Optimal tour cost: 55.5034				-- elapsed 3001540 ms
+Cost ratio: 1.11539
+---------------[ Test 'random-points-46' ]---------------
+[ #vertices = 9 ]
+Christofides tour cost: 44.6243		-- elapsed 383 ms
+Optimal tour cost: 38.8428				-- elapsed 286353 ms
+Cost ratio: 1.14884
+---------------[ Test 'random-points-47' ]---------------
+[ #vertices = 9 ]
+Christofides tour cost: 55.3767		-- elapsed 386 ms
+Optimal tour cost: 54.0326				-- elapsed 287857 ms
+Cost ratio: 1.02488
+---------------[ Test 'random-points-48' ]---------------
+[ #vertices = 9 ]
+Christofides tour cost: 57.0237		-- elapsed 364 ms
+Optimal tour cost: 57.0237				-- elapsed 286731 ms
+Cost ratio: 1
+---------------[ Test 'random-points-49' ]---------------
+[ #vertices = 8 ]
+Christofides tour cost: 39.8253		-- elapsed 358 ms
+Optimal tour cost: 39.2291				-- elapsed 30094 ms
+Cost ratio: 1.0152
+---------------[ Test 'random-points-50' ]---------------
+[ #vertices = 8 ]
+Christofides tour cost: 47.2847		-- elapsed 461 ms
+Optimal tour cost: 45.9952				-- elapsed 29896 ms
+Cost ratio: 1.02804
+---------------[ Test 'random-points-51' ]---------------
+[ #vertices = 10 ]
+Christofides tour cost: 60.0216		-- elapsed 508 ms
+Optimal tour cost: 59.7052				-- elapsed 3026058 ms
+Cost ratio: 1.0053
+---------------[ Test 'random-points-52' ]---------------
+[ #vertices = 9 ]
+Christofides tour cost: 57.2822		-- elapsed 277 ms
+Optimal tour cost: 57.2822				-- elapsed 285714 ms
+Cost ratio: 1
+---------------[ Test 'random-points-53' ]---------------
+[ #vertices = 10 ]
+Christofides tour cost: 78.535		-- elapsed 561 ms
+Optimal tour cost: 74.6847				-- elapsed 3002106 ms
+Cost ratio: 1.05155
+---------------[ Test 'random-points-54' ]---------------
+[ #vertices = 10 ]
+Christofides tour cost: 66.2105		-- elapsed 484 ms
+Optimal tour cost: 65.2682				-- elapsed 2997092 ms
+Cost ratio: 1.01444
+---------------[ Test 'random-points-55' ]---------------
+[ #vertices = 9 ]
+Christofides tour cost: 56.2119		-- elapsed 704 ms
+Optimal tour cost: 56.2119				-- elapsed 285397 ms
+Cost ratio: 1
+---------------[ Test 'random-points-56' ]---------------
+[ #vertices = 8 ]
+Christofides tour cost: 53.3702		-- elapsed 300 ms
+Optimal tour cost: 53.3702				-- elapsed 30358 ms
+Cost ratio: 1
+---------------[ Test 'random-points-57' ]---------------
+[ #vertices = 9 ]
+Christofides tour cost: 67.4368		-- elapsed 507 ms
+Optimal tour cost: 64.1297				-- elapsed 287939 ms
+Cost ratio: 1.05157
+---------------[ Test 'random-points-58' ]---------------
+[ #vertices = 9 ]
+Christofides tour cost: 67.2547		-- elapsed 361 ms
+Optimal tour cost: 65.0342				-- elapsed 286386 ms
+Cost ratio: 1.03414
+---------------[ Test 'random-points-59' ]---------------
+[ #vertices = 10 ]
+Christofides tour cost: 78.0403		-- elapsed 395 ms
+Optimal tour cost: 73.0988				-- elapsed 3001801 ms
+Cost ratio: 1.0676
+---------------[ Test 'random-points-60' ]---------------
+[ #vertices = 10 ]
+Christofides tour cost: 73.2374		-- elapsed 367 ms
+Optimal tour cost: 69.9377				-- elapsed 2996027 ms
+Cost ratio: 1.04718
+---------------[ Test 'random-points-61' ]---------------
+[ #vertices = 8 ]
+Christofides tour cost: 53.8712		-- elapsed 338 ms
+Optimal tour cost: 52.2769				-- elapsed 29498 ms
+Cost ratio: 1.0305
+---------------[ Test 'random-points-62' ]---------------
+[ #vertices = 8 ]
+Christofides tour cost: 65.4275		-- elapsed 336 ms
+Optimal tour cost: 56.7884				-- elapsed 29764 ms
+Cost ratio: 1.15213
+---------------[ Test 'random-points-63' ]---------------
+[ #vertices = 9 ]
+Christofides tour cost: 59.4233		-- elapsed 437 ms
+Optimal tour cost: 51.0072				-- elapsed 288763 ms
+Cost ratio: 1.165
+---------------[ Test 'random-points-64' ]---------------
+[ #vertices = 9 ]
+Christofides tour cost: 67.7297		-- elapsed 450 ms
+Optimal tour cost: 66.3798				-- elapsed 287252 ms
+Cost ratio: 1.02034
+---------------[ Test 'random-points-65' ]---------------
+[ #vertices = 8 ]
+Christofides tour cost: 54.3548		-- elapsed 278 ms
+Optimal tour cost: 54.3548				-- elapsed 29933 ms
+Cost ratio: 1
+---------------[ Test 'random-points-66' ]---------------
+[ #vertices = 9 ]
+Christofides tour cost: 51.5134		-- elapsed 360 ms
+Optimal tour cost: 51.4497				-- elapsed 287684 ms
+Cost ratio: 1.00124
+---------------[ Test 'random-points-67' ]---------------
+[ #vertices = 10 ]
+Christofides tour cost: 64.446		-- elapsed 525 ms
+Optimal tour cost: 63.5226				-- elapsed 3000695 ms
+Cost ratio: 1.01454
+---------------[ Test 'random-points-68' ]---------------
+[ #vertices = 10 ]
+Christofides tour cost: 67.1902		-- elapsed 498 ms
+Optimal tour cost: 60.7718				-- elapsed 3030990 ms
+Cost ratio: 1.10561
+---------------[ Test 'random-points-69' ]---------------
+[ #vertices = 10 ]
+Christofides tour cost: 59.0984		-- elapsed 535 ms
+Optimal tour cost: 54.9544				-- elapsed 3060413 ms
+Cost ratio: 1.07541
+---------------[ Test 'random-points-70' ]---------------
+[ #vertices = 10 ]
+Christofides tour cost: 55.5215		-- elapsed 519 ms
+Optimal tour cost: 53.3335				-- elapsed 3048354 ms
+Cost ratio: 1.04103
+---------------[ Test 'random-points-71' ]---------------
+[ #vertices = 10 ]
+Christofides tour cost: 72.993		-- elapsed 674 ms
+Optimal tour cost: 69.7505				-- elapsed 3034807 ms
+Cost ratio: 1.04649
+---------------[ Test 'random-points-72' ]---------------
+[ #vertices = 10 ]
+Christofides tour cost: 63.0428		-- elapsed 567 ms
+Optimal tour cost: 58.563				-- elapsed 3017579 ms
+Cost ratio: 1.07649
+---------------[ Test 'random-points-73' ]---------------
+[ #vertices = 10 ]
+Christofides tour cost: 47.6866		-- elapsed 402 ms
+Optimal tour cost: 46.5118				-- elapsed 3003383 ms
+Cost ratio: 1.02526
+---------------[ Test 'random-points-74' ]---------------
+[ #vertices = 8 ]
+Christofides tour cost: 55.5051		-- elapsed 338 ms
+Optimal tour cost: 51.4844				-- elapsed 30220 ms
+Cost ratio: 1.0781
+---------------[ Test 'random-points-75' ]---------------
+[ #vertices = 8 ]
+Christofides tour cost: 51.4743		-- elapsed 230 ms
+Optimal tour cost: 51.4743				-- elapsed 29270 ms
+Cost ratio: 1
+---------------[ Test 'random-points-76' ]---------------
+[ #vertices = 9 ]
+Christofides tour cost: 50.4252		-- elapsed 429 ms
+Optimal tour cost: 50.4252				-- elapsed 288923 ms
+Cost ratio: 1
+---------------[ Test 'random-points-77' ]---------------
+[ #vertices = 10 ]
+Christofides tour cost: 62.4753		-- elapsed 380 ms
+Optimal tour cost: 61.7482				-- elapsed 3028667 ms
+Cost ratio: 1.01178
+---------------[ Test 'random-points-78' ]---------------
+[ #vertices = 8 ]
+Christofides tour cost: 54.482		-- elapsed 345 ms
+Optimal tour cost: 50.3589				-- elapsed 29515 ms
+Cost ratio: 1.08187
+---------------[ Test 'random-points-79' ]---------------
+[ #vertices = 9 ]
+Christofides tour cost: 39.7388		-- elapsed 265 ms
+Optimal tour cost: 39.4368				-- elapsed 287948 ms
+Cost ratio: 1.00766
+---------------[ Test 'random-points-80' ]---------------
+[ #vertices = 8 ]
+Christofides tour cost: 46.483		-- elapsed 384 ms
+Optimal tour cost: 42.0384				-- elapsed 29984 ms
+Cost ratio: 1.10573
+---------------[ Test 'random-points-81' ]---------------
+[ #vertices = 10 ]
+Christofides tour cost: 66.6293		-- elapsed 306 ms
+Optimal tour cost: 63.345				-- elapsed 3016230 ms
+Cost ratio: 1.05185
+---------------[ Test 'random-points-82' ]---------------
+[ #vertices = 10 ]
+Christofides tour cost: 60.8283		-- elapsed 816 ms
+Optimal tour cost: 50.0896				-- elapsed 3058142 ms
+Cost ratio: 1.21439
+---------------[ Test 'random-points-83' ]---------------
+[ #vertices = 10 ]
+Christofides tour cost: 51.3743		-- elapsed 428 ms
+Optimal tour cost: 47.2433				-- elapsed 3059194 ms
+Cost ratio: 1.08744
+---------------[ Test 'random-points-84' ]---------------
+[ #vertices = 9 ]
+Christofides tour cost: 70.3233		-- elapsed 633 ms
+Optimal tour cost: 61.6871				-- elapsed 286458 ms
+Cost ratio: 1.14
+---------------[ Test 'random-points-85' ]---------------
+[ #vertices = 8 ]
+Christofides tour cost: 50.9059		-- elapsed 395 ms
+Optimal tour cost: 49.0414				-- elapsed 30468 ms
+Cost ratio: 1.03802
+---------------[ Test 'random-points-86' ]---------------
+[ #vertices = 8 ]
+Christofides tour cost: 54.5405		-- elapsed 328 ms
+Optimal tour cost: 53.226				-- elapsed 29570 ms
+Cost ratio: 1.0247
+---------------[ Test 'random-points-87' ]---------------
+[ #vertices = 9 ]
+Christofides tour cost: 71.8506		-- elapsed 532 ms
+Optimal tour cost: 66.1186				-- elapsed 289834 ms
+Cost ratio: 1.08669
+---------------[ Test 'random-points-88' ]---------------
+[ #vertices = 8 ]
+Christofides tour cost: 54.5416		-- elapsed 475 ms
+Optimal tour cost: 54.0738				-- elapsed 29675 ms
+Cost ratio: 1.00865
+---------------[ Test 'random-points-89' ]---------------
+[ #vertices = 10 ]
+Christofides tour cost: 56.9727		-- elapsed 290 ms
+Optimal tour cost: 55.5582				-- elapsed 3008159 ms
+Cost ratio: 1.02546
+---------------[ Test 'random-points-90' ]---------------
+[ #vertices = 10 ]
+Christofides tour cost: 58.6924		-- elapsed 567 ms
+Optimal tour cost: 56.5255				-- elapsed 2999727 ms
+Cost ratio: 1.03833
+---------------[ Test 'random-points-91' ]---------------
+[ #vertices = 8 ]
+Christofides tour cost: 54.861		-- elapsed 464 ms
+Optimal tour cost: 54.3056				-- elapsed 29728 ms
+Cost ratio: 1.01023
+---------------[ Test 'random-points-92' ]---------------
+[ #vertices = 10 ]
+Christofides tour cost: 78.393		-- elapsed 542 ms
+Optimal tour cost: 68.7978				-- elapsed 3008184 ms
+Cost ratio: 1.13947
+---------------[ Test 'random-points-93' ]---------------
+[ #vertices = 10 ]
+Christofides tour cost: 53.7988		-- elapsed 534 ms
+Optimal tour cost: 50.3795				-- elapsed 2992832 ms
+Cost ratio: 1.06787
+---------------[ Test 'random-points-94' ]---------------
+[ #vertices = 8 ]
+Christofides tour cost: 49.0324		-- elapsed 406 ms
+Optimal tour cost: 49.0324				-- elapsed 29571 ms
+Cost ratio: 1
+---------------[ Test 'random-points-95' ]---------------
+[ #vertices = 8 ]
+Christofides tour cost: 56.0736		-- elapsed 313 ms
+Optimal tour cost: 56.0736				-- elapsed 29781 ms
+Cost ratio: 1
+---------------[ Test 'random-points-96' ]---------------
+[ #vertices = 8 ]
+Christofides tour cost: 66.8548		-- elapsed 309 ms
+Optimal tour cost: 65.9903				-- elapsed 29834 ms
+Cost ratio: 1.0131
+---------------[ Test 'random-points-97' ]---------------
+[ #vertices = 10 ]
+Christofides tour cost: 61.0903		-- elapsed 471 ms
+Optimal tour cost: 56.2299				-- elapsed 2998455 ms
+Cost ratio: 1.08644
+---------------[ Test 'random-points-98' ]---------------
+[ #vertices = 10 ]
+Christofides tour cost: 57.7069		-- elapsed 514 ms
+Optimal tour cost: 56.7919				-- elapsed 2993575 ms
+Cost ratio: 1.01611
+---------------[ Test 'random-points-99' ]---------------
+[ #vertices = 10 ]
+Christofides tour cost: 64.6605		-- elapsed 459 ms
+Optimal tour cost: 63.4521				-- elapsed 3019157 ms
+Cost ratio: 1.01904
+---------------[ Test 'random-points-100' ]---------------
+[ #vertices = 8 ]
+Christofides tour cost: 40.588		-- elapsed 350 ms
+Optimal tour cost: 40.588				-- elapsed 30384 ms
+Cost ratio: 1
+Test passed – OK

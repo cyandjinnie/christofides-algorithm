@@ -7,13 +7,16 @@ include_directories(.)
 include_directories(Minimum-Cost-Perfect-Matching)
 include_directories(mst)
 
+set(CMAKE_EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/build)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY  ${PROJECT_SOURCE_DIR}/build)
+
 set(MATCH_FRAMEWORK_SRC Minimum-Cost-Perfect-Matching/BinaryHeap.cpp
                         Minimum-Cost-Perfect-Matching/BinaryHeap.h
                         Minimum-Cost-Perfect-Matching/Globals.h
                         Minimum-Cost-Perfect-Matching/Graph.cpp
                         Minimum-Cost-Perfect-Matching/Graph.h
                         Minimum-Cost-Perfect-Matching/Matching.cpp
-                        Minimum-Cost-Perfect-Matching/Matching.h tsp/tourweight.hpp tsp/tourweight.cpp)
+                        Minimum-Cost-Perfect-Matching/Matching.h tsp/tourweight.hpp tsp/tourweight.cpp graphs/distmap.cpp graphs/distmap.hpp)
 
 add_executable(christofides_algorithm
         ${MATCH_FRAMEWORK_SRC}

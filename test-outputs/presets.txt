@@ -1,0 +1,26 @@
+---------------[ Test 'us48.in' ]---------------
+[ #vertices = 48 ]
+Christofides tour cost: 39431.9		-- elapsed 16057 ms
+Known best tour cost: 33523
+Cost ratio: 1.17626
+---------------[ Test 'tsplib42.in' ]---------------
+[ #vertices = 42 ]
+Christofides tour cost: 773		-- elapsed 6299 ms
+Known best tour cost: 699
+Cost ratio: 1.10587
+---------------[ Test 'tsplib26.in' ]---------------
+[ #vertices = 26 ]
+Christofides tour cost: 1051		-- elapsed 2568 ms
+Known best tour cost: 837
+Cost ratio: 1.25568
+---------------[ Test 'gr17.in' ]---------------
+[ #vertices = 17 ]
+Christofides tour cost: 2197		-- elapsed 1012 ms
+Known best tour cost: 2085
+Cost ratio: 1.05372
+---------------[ Test 'p01.in' ]---------------
+[ #vertices = 15 ]
+Christofides tour cost: 291		-- elapsed 647 ms
+Known best tour cost: 291
+Cost ratio: 1
+Test passed – OK
