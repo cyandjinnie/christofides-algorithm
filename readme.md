@@ -7,9 +7,9 @@
 
 #### Как запустить тесты:
 
-`% mkdir cmake-build-debug`
-`% cd cmake-build-debug`
-`% cmake ../`
-`% make`
-`% cd ../ && cd build`
-`% ./christofides_algorithm`
+`% mkdir cmake-build-debug` <br/>
+`% cd cmake-build-debug`<br/>
+`% cmake ../`<br/>
+`% make`<br/>
+`% cd ../ && cd build`<br/>
+`% ./christofides_algorithm`<br/>
